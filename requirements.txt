@@ -1,0 +1,3 @@
+pinecone[grpc]==6.0.1
+fastapi==0.115.11
+uvicorn==0.34.0

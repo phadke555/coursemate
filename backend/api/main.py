@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from api.text import router as text_router
+from backend.api.text import router as text_router
 
 # Initialize FastAPI app
 app = FastAPI(title="UNC Course Search API", version="1.0")

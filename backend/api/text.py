@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from services.pinecone_service import search_index
+from backend.services.pinecone_service import search_index
 
 router = APIRouter()
 

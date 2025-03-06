@@ -1,5 +1,5 @@
 from pinecone import Pinecone
-from records_list import records
+from backend.records_list import records
 import warnings; warnings.filterwarnings("ignore")
 
 

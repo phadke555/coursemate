@@ -3,7 +3,7 @@ from backend.records_list import records
 import warnings; warnings.filterwarnings("ignore")
 
 
-api_key = "pcsk_6DMEKv_9Drtp9C1RpoArG8fnXQe3cx1sQhi6eCMPA5JHufiAPMECcFYAhM1LcA5HafBPyA"
+api_key = "API_KEY"
 pc = Pinecone(api_key=api_key)
 
 index_name = "courselist-index"

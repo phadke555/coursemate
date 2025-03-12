@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from backend.api.text import router as text_router
+from backend.api.chat import router as chat_router
 
 # Initialize FastAPI app
 app = FastAPI(title="UNC Course Search API", version="1.0")
@@ -16,6 +17,7 @@ app.add_middleware(
 
 # Include Routes
 app.include_router(text_router, prefix="/api")
+app.include_router(chat_router, prefix="/api")
 
 # Root Route for Testing
 @app.get("/")

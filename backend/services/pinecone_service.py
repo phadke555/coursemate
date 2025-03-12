@@ -3,10 +3,13 @@ from backend.records_list import records
 import warnings; warnings.filterwarnings("ignore")
 
 
-api_key = "API_KEY"
+api_key = "pcsk_6DMEKv_9Drtp9C1RpoArG8fnXQe3cx1sQhi6eCMPA5JHufiAPMECcFYAhM1LcA5HafBPyA"
 pc = Pinecone(api_key=api_key)
 
 index_name = "courselist-index"
+if pc.has_index(index_name):
+    pc.delete_index(index_name)
+    
 if not pc.has_index(index_name):
     pc.create_index_for_model(
         name=index_name,
@@ -21,7 +24,7 @@ dense_index = pc.Index(index_name)
 
 dense_index.upsert_records("unc-namespace", records)
 
-def search_index(query, k=5):
+def search_index(query, k=6):
     reranked_results = dense_index.search(
     namespace="unc-namespace",
     query={

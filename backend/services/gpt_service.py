@@ -3,10 +3,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv() 
 
-key_test = os.getenv('GPT_KEY')
-print(key_test[0:4] if key_test is not None else key_test is None)
-
-openaiapi_key = ""
+openaiapi_key = os.getenv('GPT_KEY')
 
 client = OpenAI(
     api_key=openaiapi_key  # This is the default and can be omitted

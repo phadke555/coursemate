@@ -1,5 +1,7 @@
 from openai import OpenAI
 import os
+from dotenv import load_dotenv
+load_dotenv() 
 
 key_test = os.getenv('GPT_KEY')
 print(key_test[0:4] if key_test is not None else key_test is None)

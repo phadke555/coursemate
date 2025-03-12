@@ -1,9 +1,10 @@
 from pinecone import Pinecone
+import os
 from backend.records_list import records
 import warnings; warnings.filterwarnings("ignore")
 
 
-api_key = "API_KEY"
+api_key = os.getenv('PINECONE_KEY')
 pc = Pinecone(api_key=api_key)
 
 index_name = "courselist-index"

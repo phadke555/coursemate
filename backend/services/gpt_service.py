@@ -1,8 +1,8 @@
 from openai import OpenAI
 import os
 
-key_test = os.getenv("OPENAI_API_KEY")
-print(key_test is None)
+key_test = os.getenv('GPT_KEY')
+print(key_test[0:4] if key_test is not None else key_test is None)
 
 openaiapi_key = ""
 

@@ -2,9 +2,15 @@
 import { useState } from "react";
 import { searchClasses, chatWithGPT } from "../utils/api";
 
+interface SearchResult {
+  id: string;      // or number, depending on your data
+  text: string;
+  score: number;
+}
+
 export default function Home() {
   const [query, setQuery] = useState("");
-  const [results, setResults] = useState<string[]>([]);
+  const [results, setResults] = useState<SearchResult[]>([]);
   const [mode, setMode] = useState("search");
   const [loading, setLoading] = useState(false);
  

@@ -2,7 +2,7 @@ from openai import OpenAI
 import os
 
 
-openaiapi_key = os.getenv('GPT_KEY')
+openaiapi_key = os.getenv('OPENAI_API_KEY')
 
 client = OpenAI(
     api_key=openaiapi_key  # This is the default and can be omitted

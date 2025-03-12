@@ -25,3 +25,7 @@ Course Mate is a full-stack application that provides **AI-powered course search
 - **React Query** – Manages API requests efficiently.
 
 ---
+## Run
+Access the project here: https://coursemate-mu.vercel.app/
+
+Deployed using Railways for the Backend and Vercel for the Next.js Frontend

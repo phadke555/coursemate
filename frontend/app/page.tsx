@@ -5,7 +5,6 @@ import { searchClasses, chatWithGPT } from "../utils/api";
 export default function Home() {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<string[]>([]);
-  const [gptResponse, setGptResponse] = useState("");
   const [mode, setMode] = useState("search");
   const [loading, setLoading] = useState(false);
  

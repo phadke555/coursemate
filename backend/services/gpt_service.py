@@ -2,7 +2,7 @@ from openai import OpenAI
 import os
 
 key_test = os.getenv("OPENAI_API_KEY")
-print(key_test is not None)
+print(key_test is None)
 
 openaiapi_key = ""
 

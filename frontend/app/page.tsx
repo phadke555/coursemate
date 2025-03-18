@@ -48,7 +48,7 @@ export default function Home() {
   return (
     <div className="min-h-screen font-[family-name:var(--font-geist-sans)]">
         {/* TOP HEADER */}
-            <header className="bg-white shadow-sm py-4">
+        <header className="bg-white dark:bg-gray-800 shadow-sm py-4">
         <div className="flex items-center justify-center gap-2">
           {/* Example mortarboard/academic cap icon (Heroicons) */}
           <svg
@@ -67,10 +67,10 @@ export default function Home() {
               0-.3.2-.6.5-.7l9-4.5z"
             />
           </svg>
-          <h1 className="text-xl font-bold text-gray-800">Course Planning AI</h1>
+          <h1 className="text-xl font-bold">Course Planning AI</h1>
         </div>
       </header>
-      
+
       {/* MAIN CONTENT */}
       <main className="pt-8 pb-32 p-4">
         {/* SEARCH MODE RESULTS */}
@@ -98,11 +98,11 @@ export default function Home() {
                   className={`flex ${isUser ? "justify-end" : "justify-start"}`}
                 >
                   <div
-                    className={`rounded-lg p-4 max-w-3xl ${
-                      isUser
-                        ? "bg-blue-500 text-white"
-                        : "bg-gray-200 text-black"
-                    }`}
+                    className={`rounded-lg p-4 max-w-3xl 
+                      ${isUser
+                        ? "bg-blue-500 text-white" 
+                        : "bg-gray-200 text-black dark:bg-gray-700 dark:text-white"
+                      }`}
                   >
                     <ReactMarkdown>{message.content}</ReactMarkdown>
                   </div>
@@ -114,7 +114,7 @@ export default function Home() {
       </main>
 
       {/* FIXED BOTTOM BAR */}
-      <footer className="fixed bottom-0 left-0 w-full bg-white p-4 shadow-md z-10">
+      <footer className="fixed bottom-0 left-0 w-full bg-white dark:bg-gray-800 p-4 shadow-md z-10">
         {/* Toggle between Search and Chat */}
         <div className="flex justify-center gap-2 mb-3">
           <button

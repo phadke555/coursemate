@@ -6,7 +6,7 @@ router = APIRouter()
 
 @router.get("/chat")
 def chat(query: str):
-    results = search_index(query)
+    results = search_index(query, k=10)
     if not results:
         raise HTTPException(status_code=404, detail="No results found.")
 

@@ -183,5 +183,151 @@ records = [
         "_id": "STOR 572",
         "chunk_text": "STOR 572: Simulation for Analytics. This upper-level-undergraduate and beginning-graduate-level course introduces the concepts of modeling, programming, and statistical analysis as they arise in stochastic computer simulations. Topics include modeling static and discrete-event simulations of stochastic systems, random number generation, random variate generation, simulation programming, and statistical analysis of simulation input and output.",
         "category": "STOR"
-    }
+    },
+
+    {
+        "_id": "COMP 110",
+        "chunk_text": "COMP 110: Introduction to Programming and Data Science. Introduces students to programming and data science from a computational perspective. With an emphasis on modern applications in society, students gain experience with problem decomposition, algorithms for data analysis, abstraction design, and ethics in computing. No prior programming experience expected. Foundational concepts include data types, sequences, boolean logic, control flow, functions/methods, recursion, classes/objects, input/output, data organization, transformations, and visualizations.",
+        "category": "COMP"
+    },
+    {
+        "_id": "COMP 116",
+        "chunk_text": "COMP 116: Introduction to Scientific Programming. An introduction to programming for computationally oriented scientists. Fundamental programming skills, typically using MATLAB or Python. Problem analysis and algorithm design with examples drawn from simple numerical and discrete problems.",
+        "category": "COMP"
+    },
+    {
+        "_id": "COMP 210",
+        "chunk_text": "COMP 210: Data Structures and Analysis. This course will teach you how to organize the data used in computer programs so that manipulation of that data can be done efficiently on large problems and large data instances. Rather than learning to use the data structures found in the libraries of programming languages, you will be learning how those libraries are constructed, and why the items that are included in them are there (and why some are excluded).",
+        "category": "COMP"
+    },
+    {
+        "_id": "COMP 211",
+        "chunk_text": "COMP 211: Systems Fundamentals. This is the first course in the introductory systems sequence. Students enter the course having taken an introductory programming course in a high-level programming language (COMP 110) and a course in discrete structures. The overarching goal is to bridge the gap between a students' knowledge of a high-level programming language (COMP 110) and computer organization (COMP 311).",
+        "category": "COMP"
+    },
+    {
+        "_id": "COMP 283",
+        "chunk_text": "COMP 283: Discrete Structures. Introduces discrete structures (sets, tuples, relations, functions, graphs, trees) and the formal mathematics (logic, proof, induction) used to establish their properties and those of algorithms that work with them. Develops problem-solving skills through puzzles and applications central to computer science.",
+        "category": "COMP"
+    },
+    {
+        "_id": "COMP 301",
+        "chunk_text": "COMP 301: Foundations of Programming. Students will learn how to reason about how their code is structured, identify whether a given structure is effective in a given context, and look at ways of organizing units of code that support larger programs. In a nutshell, the primary goal of the course is to equip students with tools and techniques that will help them not only in later courses in the major but also in their careers afterwards.",
+        "category": "COMP"
+    },
+    {
+        "_id": "COMP 311",
+        "chunk_text": "COMP 311: Computer Organization. Introduction to computer organization and design. Students will be introduced to the conceptual design of a basic microprocessor, along with assembly programming. The course includes fundamental concepts such as binary numbers, binary arithmetic, and representing information as well as instructions. Students learn to program in assembly (i.e., machine) language. The course covers the fundamentals of computer hardware design, transistors and logic gates, progressing through basic combinational and sequential components, culminating in the conceptual design CPU.",
+        "category": "COMP"
+    },
+    {
+        "_id": "COMP 380",
+        "chunk_text": "COMP 380: Technology, Ethics, & Culture. This discussion-based, participatory course explores the personal, sociocultural, and ethical effects and implications of the development and use of computing technologies and the Internet. Honors version available.",
+        "category": "COMP"
+    },
+    {
+        "_id": "COMP 421",
+        "chunk_text": "COMP 421: Files and Databases. Placement of data on secondary storage. File organization. Database history, practice, major models, system structure and design. Previously offered as COMP 521.",
+        "category": "COMP"
+    },
+    {
+        "_id": "COMP 426",
+        "chunk_text": "COMP 426: Modern Web Programming. Developing applications for the World Wide Web including both client-side and server-side programming. Emphasis on Model-View-Controller architecture, AJAX, RESTful Web services, and database interaction.",
+        "category": "COMP"
+    },
+    {
+        "_id": "COMP 431",
+        "chunk_text": "COMP 431: Internet Services and Protocols. Application-level protocols HTTP, SMTP, FTP, transport protocols TCP and UDP, and the network-level protocol IP. Internet architecture, naming, addressing, routing, and DNS. Sockets programming. Physical-layer technologies. Ethernet, ATM, and wireless.",
+        "category": "COMP"
+    },
+    {
+        "_id": "COMP 433",
+        "chunk_text": "COMP 433: Mobile Computing Systems. Principles of mobile applications, mobile OS, mobile networks, and embedded sensor systems. Coursework includes programming assignments, reading from recent research literature, and a semester long project on a mobile computing platform (e.g., Android, Arduino, iOS, etc.).",
+        "category": "COMP"
+    },
+    {
+        "_id": "COMP 455",
+        "chunk_text": "COMP 455: Models of Languages and Computation. Introduction to the theory of computation. Finite automata, regular languages, pushdown automata, context-free languages, and Turing machines. Undecidable problems.",
+        "category": "COMP"
+    },
+    {
+        "_id": "COMP 486",
+        "chunk_text": "COMP 486: Applications of Natural Language Processing. Natural language processing (NLP) uses mathematics, machine learning, linguistics, and computer science to make language computationally accessible and analyzable. In this course, you will learn to do essential NLP tasks using Python and survey a selection of NLP applications to describe the problems or tasks each addresses, the materials and methods used, and how the applications are evaluated. At least a semester of Python or equivalent practical experience is highly recommended.",
+        "category": "COMP"
+    },
+    {
+        "_id": "COMP 488",
+        "chunk_text": "COMP 488: Data Science in the Business World. Business and Computer Science students join forces in this course to create data-driven business insights. We transgress the data science pipeline using cloud computing, artificial intelligence, and real-world datasets. Students acquire hands-on skills in acquiring data, wrangling vast unstructured data, building advanced models, and telling compelling stories with data that managers can understand.",
+        "category": "COMP"
+    },
+    {
+        "_id": "COMP 520",
+        "chunk_text": "COMP 520: Compilers. Design and construction of compilers. Theory and pragmatics of lexical, syntactic, and semantic analysis. Interpretation. Code generation for a modern architecture. Run-time environments. Includes a large compiler implementation project.",
+        "category": "COMP"
+    },
+    {
+        "_id": "COMP 523",
+        "chunk_text": "COMP 523: Software Engineering Laboratory. Organization and scheduling of software engineering projects, structured programming, and design. Each team designs, codes, and debugs program components and synthesizes them into a tested, documented program product.",
+        "category": "COMP"
+    },
+    {
+        "_id": "COMP 530",
+        "chunk_text": "COMP 530: Operating Systems. Types of operating systems. Concurrent programming. Management of storage, processes, devices. Scheduling, protection. Case study. Course includes a programming laboratory. Honors version available.",
+        "category": "COMP"
+    },
+    {
+        "_id": "COMP 535",
+        "chunk_text": "COMP 535: Introduction to Computer Security. Principles of securing the creation, storage, and transmission of data and ensuring its integrity, confidentiality and availability. Topics include access control, cryptography and cryptographic protocols, network security, and online privacy.",
+        "category": "COMP"
+    },
+    {
+        "_id": "COMP 545",
+        "chunk_text": "COMP 545: Programming Intelligent Physical Systems. Introduction to programming embedded control systems that lie at the heart of robots, drones, and autonomous vehicles. Topics will include modeling physical systems, designing feedback controllers, timing analysis of embedded systems and software, software implementations of controllers on distributed embedded platforms and their verification. Honors version available.",
+        "category": "COMP"
+    },
+    {
+        "_id": "COMP 550",
+        "chunk_text": "COMP 550: Algorithms and Analysis. Formal specification and verification of programs. Techniques of algorithm analysis. Problem-solving paradigms. Survey of selected algorithms.",
+        "category": "COMP"
+    },
+    {
+        "_id": "COMP 555",
+        "chunk_text": "COMP 555: Bioalgorithms. Bioinformatics algorithms. Topics include DNA restriction mapping, finding regulatory motifs, genome rearrangements, sequence alignments, gene prediction, graph algorithms, DNA sequencing, protein sequencing, combinatorial pattern matching, approximate pattern matching, clustering and evolution, tree construction, Hidden Markov Models, randomized algorithms.",
+        "category": "COMP"
+    },
+    {
+        "_id": "COMP 560",
+        "chunk_text": "COMP 560: Artificial Intelligence. Introduction to techniques and applications of modern artificial intelligence. Combinatorial search, probabilistic models and reasoning, and applications to natural language understanding, robotics, and computer vision.",
+        "category": "COMP"
+    },
+    {
+        "_id": "COMP 562",
+        "chunk_text": "COMP 562: Introduction to Machine Learning. Machine learning as applied to speech recognition, tracking, collaborative filtering, and recommendation systems. Classification, regression, support vector machines, hidden Markov models, principal component analysis, and deep learning. Honors version available.",
+        "category": "COMP"
+    },
+    {
+        "_id": "COMP 581",
+        "chunk_text": "COMP 581: Introduction to Robotics. Hands-on introduction to robotics with a focus on the computational aspects. Students will build and program mobile robots. Topics include kinematics, actuation, sensing, configuration spaces, control, and motion planning. Applications include industrial, mobile, personal, and medical robots. Honors version available.",
+        "category": "COMP"
+    },
+    {
+        "_id": "COMP 586",
+        "chunk_text": "COMP 586:  Natural Language Processing. Through this course, students will develop an understanding of the general field of Natural Language Processing with an emphasis on state-of-the-art solutions for classic NLP problems. Topics include: text representation and classification, parts-of-speech tagging, parsing, translation, and language modeling.",
+        "category": "COMP"
+    },
+    {
+        "_id": "COMP 585",
+        "chunk_text": "COMP 585:  Serious Games. Concepts of computer game development and their application beyond entertainment to fields such as education, health, and business. Course includes team development of a game. Honors version available.",
+        "category": "COMP"
+    },
+    {
+        "_id": "COMP 575",
+        "chunk_text": "COMP 575:  Introduction to Computer Graphics. Hardware, software, and algorithms for computer graphics. Scan conversion, 2-D and 3-D transformations, object hierarchies. Hidden surface removal, clipping, shading, and antialiasing. Not for graduate computer science credit.",
+        "category": "COMP"
+    },
+    {
+        "_id": "COMP 537",
+        "chunk_text": "COMP 537:  Cryptography. Introduces both the applied and theoretical sides of cryptography. Main focus will be on the inner workings of cryptographic primitives and how to use them correctly. Begins with standard cryptographic tools such as symmetric and public-key encryption, message authentication, key exchange, and digital signatures before moving on to more advanced topics. Potential advanced topics include elliptic curves, post-quantum cryptography, and zero-knowledge proofs. Honors version available.",
+        "category": "COMP"
+    },
 ]

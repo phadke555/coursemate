@@ -67,7 +67,7 @@ export default function Home() {
               0-.3.2-.6.5-.7l9-4.5z"
             />
           </svg>
-          <h1 className="text-xl font-bold">Course Planning AI</h1>
+          <h1 className="text-xl font-bold">Course Mate: Course Planning AI Tool</h1>
         </div>
       </header>
 

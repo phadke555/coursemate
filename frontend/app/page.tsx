@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import ReactMarkdown from "react-markdown";
 import { searchClasses, chatWithGPT } from "../utils/api";
 
 interface SearchResult {
@@ -14,7 +15,11 @@ export default function Home() {
   const [mode, setMode] = useState("search");
   const [loading, setLoading] = useState(false);
  
-  const [chatHistory, setChatHistory] = useState<{ role: string; content: string }[]>([]);
+    // Initialize chat history with the initial assistant message
+  const initialAssistantMessage = `Hi! I am a course planning assistance. I can help you with planning and evaluating your course schedule at UNC. If you have any specific questions about the courses offered or need assistance in selecting courses that align with your academic goals and interests, feel free to ask!`;
+  const [chatHistory, setChatHistory] = useState<{ role: string; content: string }[]>([
+      { role: "assistant", content: initialAssistantMessage },
+  ]);
 
   // This function calls the searchClasses API and chatWithGPT API
   const handleSubmit = async () => {
@@ -31,9 +36,9 @@ export default function Home() {
   
         // Append the user’s message and the AI’s response to chatHistory
         setChatHistory((prev) => [
+          ...prev, // older messages go at the top
           { role: "user", content: query },
           { role: "assistant", content: response },
-          ...prev, // older messages go after the newest
         ]);
   
         // Clear out the search results if you want them separate
@@ -118,17 +123,29 @@ export default function Home() {
             ))}
           </ol>
         )}
-        {mode === "chat" && chatHistory.length > 0 && (
+        {/* CHAT MODE MESSAGES */}
+                {mode === "chat" && chatHistory.length > 0 && (
           <div className="flex flex-col gap-4">
-            {chatHistory.map((message, index) => (
-              <div
-                key={index}
-                className="p-4 border border-gray-300 rounded shadow-sm font-[family-name:var(--font-geist-mono)]"
-              >
-                <strong>{message.role === "user" ? "You: " : "Assistant: "}</strong>
-                {message.content}
-              </div>
-            ))}
+            {chatHistory.map((message, index) => {
+              const isUser = message.role === "user";
+              return (
+                <div
+                  key={index}
+                  className={`flex ${isUser ? "justify-end" : "justify-start"}`}
+                >
+                  <div
+                    className={`rounded-lg p-4 max-w-2xl ${
+                      isUser
+                        ? "bg-blue-500 text-white"
+                        : "bg-gray-200 text-black"
+                    }`}
+                  >
+                    <strong>{isUser ? "You:" : "Assistant:"} </strong>
+                    <ReactMarkdown>{message.content}</ReactMarkdown>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         )}
       </main>

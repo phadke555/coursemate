@@ -1,20 +1,5 @@
 records = [
     {
-        "_id": "STOR 52",
-        "chunk_text": "STOR 52 First-Year Seminar: Decisions, Decisions, Decisions. In this course, we will investigate the structure of these decision problems, show how they can be solved (at least in principle), and solve some simple problems.",
-        "category": "STOR"
-    },
-    {
-        "_id": "STOR 53",
-        "chunk_text": "STOR 53 FYS: Networks: Networks, mathematical structures that are composed of nodes and a set of lines joining the nodes, are used to model a wide variety of familiar systems.",
-        "category": "STOR"
-    },
-    {
-        "_id": "STOR 54",
-        "chunk_text": "First-Year Seminar: Adventures in Statistics. Demonstrates that statistics can be exciting and fun, covering statistics in our lives, randomness, and principles of statistical reasoning.",
-        "category": "STOR"
-    },
-    {
         "_id": "STOR 55",
         "chunk_text": "First-Year Seminar: Risk and Uncertainty in the Real World. Studies uncertainty in daily life, cognitive biases, and quantitative models used in decision-making across various fields.",
         "category": "STOR"
@@ -37,31 +22,6 @@ records = [
     {
         "_id": "STOR 62",
         "chunk_text": "First-Year Seminar: Probability and Paradoxes. Surveys probability theory and its paradoxes, along with logical and mathematical puzzles in human behavior.",
-        "category": "STOR"
-    },
-    {
-        "_id": "STOR 63",
-        "chunk_text": "FYS: Statistics, Biostatistics, and Bioinformatics. Emphasizes statistical reasoning in interdisciplinary areas, including bioinformatics.",
-        "category": "STOR"
-    },
-    {
-        "_id": "STOR 64",
-        "chunk_text": "First-Year Seminar: A Random Walk down Wall Street. Introduces financial concepts, probability models, and data analysis techniques relevant to market uncertainty.",
-        "category": "STOR"
-    },
-    {
-        "_id": "STOR 66",
-        "chunk_text": "STOR 66: First-Year Seminar: Visualizing Data. Explores computational tools for data visualization and decision-making in data presentation.",
-        "category": "STOR"
-    },
-    {
-        "_id": "STOR 72",
-        "chunk_text": "STOR 72: First-Year Seminar: Unlocking the Genetic Code. Introduces genetics, DNA structures, and computational methods for genetic data analysis.",
-        "category": "STOR"
-    },
-    {
-        "_id": "STOR 89",
-        "chunk_text": "STOR 89: First-Year Seminar: Special Topics. Covers various topics, changing each semester.",
         "category": "STOR"
     },
     {
@@ -329,5 +289,141 @@ records = [
         "_id": "COMP 537",
         "chunk_text": "COMP 537:  Cryptography. Introduces both the applied and theoretical sides of cryptography. Main focus will be on the inner workings of cryptographic primitives and how to use them correctly. Begins with standard cryptographic tools such as symmetric and public-key encryption, message authentication, key exchange, and digital signatures before moving on to more advanced topics. Potential advanced topics include elliptic curves, post-quantum cryptography, and zero-knowledge proofs. Honors version available.",
         "category": "COMP"
+    },
+
+    {
+        "_id": "BUSI 100",
+        "chunk_text": "BUSI 100:  Introduction to Business: People, Profits, Planet. This course will cover five major themes: people, customers, firms, markets and society. In doing so, it will allow students to learn about the world of business, the major disciplines and how those disciplines fit together as well as how business can drive positive change in a rapidly changing world. Lastly, the course will highlight different career paths, and will introduce the skillsets and mindsets that are relevant to each.",
+        "category": "BUSI"
+    },
+    {
+        "_id": "BUSI 401",
+        "chunk_text": "BUSI 401:  Management and Corporate Communication. Open to business majors. Writing- and speaking-intensive course that emphasizes professional communication. Provides opportunities to learn and apply the conventions and expectations for standard business documents and presentations. Features strategies for addressing informative, persuasive, and bad-news messages using a variety of media (print documents, electronic messages, and oral presentations).",
+        "category": "BUSI"
+    },
+    {
+        "_id": "BUSI 402",
+        "chunk_text": "BUSI 402:  Applied Microeconomics for Business. The course emphasizes the application of economic analysis to solve a range of practical business problems that fall into one of these broad categories. The course makes regular use of mathematics (elements of algebra, geometry, and calculus), and includes a solution of optimization problems using Excel. Students may not receive credit for both BUSI 402 and ECON 410.",
+        "category": "BUSI"
+    },
+    {
+        "_id": "BUSI 403",
+        "chunk_text": "BUSI 403:  Operations Management. Analysis of the operations functions in both manufacturing and service organizations. Formulating operational policies that improve efficiency and support high-level business strategy. Developing remedies that mitigate uncertainty and variability in operational processes.",
+        "category": "BUSI"
+    },
+    {
+        "_id": "BUSI 404",
+        "chunk_text": "BUSI 404: Business Ethics. An examination of ethical issues that affect business.",
+        "category": "BUSI"
+    },
+    {
+        "_id": "BUSI 405",
+        "chunk_text": "BUSI 405: Leading and Managing: An Introduction to Organizational Behavior. An introduction to leading and managing in organizations. Examines the impact of individual, group, and organizational factors on organizational performance and employee attitudes. Topics include leadership, perceptions, attitudes, motivation, group development, norms and cohesiveness, empowerment, conflict, negotiations, culture, structure, stress, innovation, and change.",
+        "category": "BUSI"
+    },
+    {
+        "_id": "BUSI 406",
+        "chunk_text": "BUSI 406: Marketing: Introduction to marketing with emphasis on the social and economic aspects of distribution, consumer problems, marketing functions and institutions, marketing methods and policies.",
+        "category": "BUSI"
+    },
+    {
+        "_id": "BUSI 407",
+        "chunk_text": "BUSI 407: Financial Accounting: Students will acquire the tools to understand and analyze information presented in corporate financial statements. Financial accounting results and projected results are utilized in virtually every segment of the business world. Knowledge of financial accounting and analysis is necessary for managers, investors, bankers, financial analysts, and professional accountants.",
+        "category": "BUSI"
+    },
+    {
+        "_id": "BUSI 408",
+        "chunk_text": "BUSI 408: Corporate Finance: Theoretical foundations of optimal financial policy. Problems and cases provide application of theory to financial decisions involving cash flow, capital structure, and capital budgeting.",
+        "category": "BUSI"
+    },
+    {
+        "_id": "BUSI 409",
+        "chunk_text": "BUSI 409: Advanced Corporate Finance: A follow-up course to BUSI 408 that goes more deeply into the theory and application of financial management. Emphasis is placed on investment, financing, and dividend decisions. Honors version available.",
+        "category": "BUSI"
+    },
+    {
+        "_id": "BUSI 410",
+        "chunk_text": "BUSI 410: Business Analytics: While witnessing an explosion of data, most organizations tend to be awash with data but short on information. This course exposes students to techniques that will help them impact on an organization's strategy, planning, and operations, working on applications spanning a number of fields, including operations management, finance, and marketing.",
+        "category": "BUSI"
+    },
+    {
+        "_id": "BUSI 411",
+        "chunk_text": "BUSI 411: Strategic Management at the Business Level: Students analyze sources of competitive success in business organizations using case analysis and written reports to develop analytical reasoning skills for assessing forward looking opportunities for the company. The emphasis is on industry analysis and organizational analysis and the development and management of firm specific competencies for successful growth.",
+        "category": "BUSI"
+    },
+    {
+        "_id": "BUSI 412",
+        "chunk_text": "BUSI 412: Strategic Management in the Modern Corporation: Students study the development of alternate forms of corporate-level diversification, with an emphasis on understanding the varied paths of corporate development. There is a focus on the challenges of integrating activities across diversified corporations and the tools to manage firms through the transitions that signal a change in strategy.",
+        "category": "BUSI"
+    },
+    {
+        "_id": "BUSI 488",
+        "chunk_text": "BUSI 488: Data Science in the Business World: Business and Computer Science students join forces in this course to create data-driven business insights. We transgress the data science pipeline using cloud computing, artificial intelligence, and real-world datasets. Students acquire hands-on skills in acquiring data, wrangling vast unstructured data, building advanced models, and telling compelling stories with data that managers can understand.",
+        "category": "BUSI"
+    },
+    {
+        "_id": "BUSI 463",
+        "chunk_text": "BUSI 463: Corporate Environmental Stewardship: This course explores the intersection of business/economic growth and the major sustainability issues affecting the environment and societal well-being and raises questions about business ethics and the moral responsibility of business leaders, consumers, and citizens. Previously offered as ENEC 306.",
+        "category": "BUSI"
+    },
+    {
+        "_id": "BUSI 470",
+        "chunk_text": "BUSI 470: Storytelling to Influence and Inspire: Whether communicating to a single person, a small team, a company, or the world, stories help you cut through information clutter to explain your brand, articulate your vision, inspire buy-in, offer hope, and sell ideas. Considering that, this course - through lecture, discussion, readings, workshops, thinking time, and practice - gives you the tools you need to be a confident storyteller in the workplace and thus influence and inspire most everyone in your professional sphere.",
+        "category": "BUSI"
+    },
+    {
+        "_id": "BUSI 500",
+        "chunk_text": "BUSI 500: Entrepreneurship and Business Planning: Students gain an understanding of entrepreneurship and the tools and skills necessary to conceive, plan, execute, and scale a successful new venture. Students develop business ventures in teams through an experiential pedagogy. Honors version available.",
+        "category": "BUSI"
+    },
+    {
+        "_id": "BUSI 501",
+        "chunk_text": "BUSI 501: Professional Selling Strategies and Skills: Critical concepts and skills for selling B2B products and services, and influencing others in business. Applicable to people considering sales or consulting as a career; to those thinking of starting an entrepreneurial company; or for those who want to understand how to influence peers, subordinates, and management.",
+        "category": "BUSI"
+    },
+    {
+        "_id": "BUSI 502",
+        "chunk_text": "BUSI 502: Entrepreneurial Finance: In this course students use financial tools and concepts in a real-world entrepreneurial setting. Working in assigned teams, students prepare a pitch book with financial projections for a company they wish to start or buy.",
+        "category": "BUSI"
+    },
+    {
+        "_id": "BUSI 503",
+        "chunk_text": "BUSI 503: Family Business I: Introduction to Family Enterprise: Addresses stages of a family enterprise and challenges/opportunities of each stage. Coursework synthesizes learning from core business subjects with practices common to successful family businesses. Focus is on developing management, governance, and family business leadership skills, with an emphasis on the importance of communication in the family; the creation of shared vision for the business; and alignment of family and business goals. The course includes live cases and student research on a family business.",
+        "category": "BUSI"
+    },
+    {
+        "_id": "BUSI 505",
+        "chunk_text": "BUSI 505: Entrepreneurial Consulting: Student teams engage in consulting projects to help a wide range of small business owners, early stage start-ups, and not-for-profit ventures tackle typical entrepreneurial challenges. Data is gathered through extensive fieldwork, such as client meetings, customer surveys, interviews with thought leaders, site visits, and product tests. Due to the heavy workload, students should not enroll in BUSI 505 and BUSI 554 concurrently.",
+        "category": "BUSI"
+    },
+    {
+        "_id": "BUSI 506",
+        "chunk_text": "BUSI 506: Entrepreneurial Strategy: How to Think Like a Venture Capitalist: In this course, we tackle venture capital as a topic of strategy rather than finance. This course is complementary to entrepreneurial finance and private equity courses, as we will focus on the story about the numbers more than the numbers themselves. The goal of this course is to teach students how to recognize early stage startup opportunities, mitigate risk and assess feasibility. Real startup will come pitch to class, a la TV's Shark Tank.",
+        "category": "BUSI"
+    },
+    {
+        "_id": "BUSI 580",
+        "chunk_text": "BUSI 580: Investments: A survey of investment principles and practices. Emphasis is given to the problems of security analysis and portfolio management with special attention to the investment problems of the individual investor. Honors version available.",
+        "category": "BUSI"
+    },
+    {
+        "_id": "BUSI 583",
+        "chunk_text": "BUSI 583: Applied Investment Management: Permission of the department. Year-long course. A live, student-managed investment fund with real dollars and fiduciary responsibility to the UNC Foundation. Emphasis is on the decisions that must be made by and/or for the ultimate investor and the analytic tools and empirical evidence that can help inform such decisions. Honors version available.",
+        "category": "BUSI"
+    },
+    {
+        "_id": "BUSI 587",
+        "chunk_text": "BUSI 587: Investment Banking: This course prepares students for investment banking positions and internships. The focus of the class is on financial modeling, general knowledge of banking, and what it takes to succeed in the industry. Permission of the instructor and confirmed offer of investment banking analyst internship or full-time job. Honors version available.",
+        "category": "BUSI"
+    },
+    {
+        "_id": "BUSI 588",
+        "chunk_text": "BUSI 588: Introduction to Derivative Securities and Risk Management: Introduction to derivative securities instruments (options and futures) and applications in investments and corporate finance. Honors version available.",
+        "category": "BUSI"
+    },
+    {
+        "_id": "BUSI 600",
+        "chunk_text": "BUSI 600: Risk Management: Develops methods for applied analysis of financial and operational risk. The course covers statistical methods of risk measurement such as value-at-risk. In addition, the course covers methods for designing and evaluating risk management procedures at both financial and non-financial companies. The course includes several guest lectures from senior managers.",
+        "category": "BUSI"
     },
 ]
